@@ -162,6 +162,7 @@ aside li {
 
 .header-menu-item {
   cursor: pointer;
+  color: white;
 }
 
 .header-ctas {
@@ -310,9 +311,6 @@ aside li {
 
 .featured-collection-image {
   aspect-ratio: 1 / 1;
-  @media (min-width: 45em) {
-    aspect-ratio: 16 / 9;
-  }
 }
 
 .featured-collection img {
